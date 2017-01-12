@@ -21,7 +21,7 @@ describe('Bubble Sort', function(){
     expect( bubbleSort([54, 27, 83, 133, 0, 66]) ).toEqual( [0, 27, 54, 66, 83, 133] );
   });
 
-  it('handles an array with duplicate values', function(){
+  it('handles an array with duplicate values with 2-element array', function(){
     expect( bubbleSort([2, 2]) ).toEqual( [2, 2] );
   });
 
